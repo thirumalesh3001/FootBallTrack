@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"  android:id="@+id/group1">
+        <item
+            android:id="@+id/profile_action"
+            android:icon="@drawable/profile_icon"
+            android:title="Profile"
+            />
+    </group>
+
+    <group android:checkableBehavior="single"  android:id="@+id/group2">
+        <item
+            android:icon="@drawable/team_stats_bg"
+            android:id="@+id/view_teams_action"
+            android:title="Team Stats" />
+    </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group3">
+        <item
+            android:icon="@drawable/h2h_player_view_bg"
+            android:id="@+id/h2hpalyer_view_action"
+            android:title="H2H Player view" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group4">
+        <item
+            android:icon="@drawable/game_history"
+            android:id="@+id/game_history_action"
+            android:title="Game History" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group5">
+        <item
+            android:icon="@drawable/game_highlights_bg"
+            android:id="@+id/game_highlights_action"
+            android:title="Game Highlights" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group6">
+        <item
+            android:icon="@drawable/challange"
+            android:id="@+id/challenge_player_team_action"
+            android:title="Challenge Player/Team" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group7">
+        <item
+            android:icon="@drawable/tournments_icon"
+            android:id="@+id/tournaments_action"
+            android:title="Tournaments" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group8">
+        <item
+            android:icon="@drawable/subscription_icon"
+            android:id="@+id/subscriptions_action"
+            android:title="Subscriptions" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group9">
+        <item
+            android:icon="@drawable/settings"
+            android:id="@+id/settings_action"
+            android:title="Settings" />
+        </group>
+    <group android:checkableBehavior="single"  android:id="@+id/group10">
+        <item
+            android:icon="@drawable/logout"
+            android:id="@+id/logout_action"
+            android:title="Logout" />
+        </group>
+
+</menu>

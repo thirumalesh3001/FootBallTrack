@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b465b"
+    >
+<Button
+    android:layout_width="120dp"
+    android:layout_height="50dp"
+    android:text="Play"
+    android:id="@+id/video_paly"
+    />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/video_paly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
